@@ -1,0 +1,14 @@
+ONT
+
+El protocolo OMCI (ONT Management and Control Interface) es un estándar utilizado en redes GPON (Gigabit Passive Optical Network) para el control y la gestión de las ONT (Optical Network Terminals) por parte de la OLT (Optical Line Terminal). Aquí tienes algunos detalles clave sobre el OMCI:
+
+Funciones del OMCI:
+Establecimiento y liberación de conexiones: Permite a la OLT configurar y liberar conexiones en la ONT.
+Gestión de puertos físicos: Facilita la administración de los puertos físicos de la ONT.
+Solicitud de información de configuración y estadísticas: Permite obtener datos sobre la configuración y el rendimiento de la ONT.
+Notificación de eventos al operador: Informa automáticamente al operador sobre eventos, como cortes de fibra12.
+Asimetría en la comunicación:
+El OLT actúa como maestro, mientras que la ONT es el esclavo.
+El protocolo OMCI se ejecuta sobre una conexión GEM (GPON Encapsulation Method) establecida durante el arranque de la ONT1.
+En resumen, el OMCI es fundamental para la gestión eficiente de las ONT en redes GPON, permitiendo una configuración, supervisión y control efectivos.
+
