@@ -6,10 +6,25 @@ https://www.youtube.com/watch?v=mHcjSqfC5lo&list=PLU-S50zXsPVse1iQAOH2--RiP7AKiQ
 
 ONU list:
 For C-DATA GPON, PON SN is shown in the SN
+For C-DATA EPON, the serial number of the device is displayed.
+For third-party devices the reported SN is displayed.
+
+* You can delete a device/ONU, and later recover from Recycle bin if needed. You can also deleted permanetly which clear
+	the TR069 channel information of the device.
 
 
 
 ----------------------------------------
+git remote add origin <url> te permite conectar tu repositorio local con uno remoto, lo que facilita la colaboración y el seguimiento de versiones en GitHub.
 $ git remote add origin https://github.com/CARLOSPH36/GPON.git
 
 ----------------------------------------
+
+Adding OLT to CMS :
+https://www.youtube.com/watch?v=2NbpSOX3LqQ
+
+
+CMS: Admin/Enterprise//Channel Resource ///MQTT --> Copy the Server URL and pasted to OLT
+CMS: Device/OLT
+
+OLT: Maintenance/Acces Manager//Remote Acces Setting >> Enable CMS
